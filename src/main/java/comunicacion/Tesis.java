@@ -76,7 +76,7 @@ public class Tesis extends Escrito {
 	}
 
 	public String toString() {
-		return(this.resumen() + "\n" + this.idea + "\n" + this.conclusion + "\n" +
+		return(this.resumen() + "\n" + this.idea + "\n" + this.argumentos.length + "\n" +
 				this.conclusion + "\n" + this.referencias);
 	}
 }
